@@ -4,7 +4,7 @@ const graphics = ['pale-green-body', 'pale-green-head', 'pale-green-wings', 'pal
 
 const player: RpgPlayerHooks = {
     onConnected(player: RpgPlayer) {
-        player.name = 'YourName'
+        player.name = 'Dragon'
         player.setComponentsTop(Components.text('{name}'))
 
         player.setGraphic(graphics);
