@@ -68,5 +68,4 @@ const LPCSpritesheetPreset = () => {
     ...LPCSpritesheetPreset(),
 })
 export default class LPCSpritesheet {
-
 }
