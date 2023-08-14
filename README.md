@@ -4,7 +4,7 @@ In this repository you can find examples of [RPGJS](https://rpgjs.dev) capabilit
 
 ## LPC
 
-[![Watch the video](https://i.imgur.com/pU7xg4j.png)](https://i.imgur.com/SW4OCal.mp4)
+[![Watch the video](https://i.imgur.com/gf6QUVg.png)](https://i.imgur.com/SW4OCal.mp4)
 
 `rpg.toml`
 ```toml
