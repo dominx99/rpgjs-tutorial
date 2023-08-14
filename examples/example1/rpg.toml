@@ -7,7 +7,42 @@ modules = [
     '@rpgjs/gamepad'
 ]
 
+spritesheetDirectories= [
+    'lpc-sprites'
+]
+
 [start]
     map = 'simplemap'
-    graphic = 'hero'
-    hitbox = [16, 16]
+    hitbox = [32, 32]
+
+[inputs.up]
+    name = "up"
+    repeat = true
+    bind = "w"
+
+[inputs.down]
+    name = "down"
+    repeat = true
+    bind = "s"
+
+[inputs.right]
+    name = "right"
+    repeat = true
+    bind = "d"
+
+[inputs.left]
+    name = "left"
+    repeat = true
+    bind = "a"
+
+[inputs.attack]
+    name = "attack"
+    repeat = true
+    bind = "j"
+    delay = { duration = 200 }
+
+[inputs.skill]
+    name = "skill"
+    repeat = true
+    bind = "k"
+    delay = { duration = 200 }
