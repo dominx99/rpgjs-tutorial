@@ -56,7 +56,7 @@ const LPCSpritesheetPreset = () => {
                 animations: (direction: Direction) => [anim(direction, 6, 3)]
             },
             [Animation.Skill]: {
-                framesWidth: 6,
+                framesWidth: 7,
                 framesHeight: 4,
                 animations: (direction: Direction) => [anim(direction, 7, 3)]
             }
