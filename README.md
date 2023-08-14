@@ -6,7 +6,9 @@ In this repository you can find examples of [RPGJS](https://rpgjs.dev) capabilit
 
 [![Watch the video](https://i.imgur.com/gf6QUVg.png)](https://i.imgur.com/SW4OCal.mp4)
 
-[Here](https://sanderfrenken.github.io/Universal-LPC-Spritesheet-Character-Generator/#?body=Body_color_pale_green&head=Human_male_pale_green&tail=Lizard_tail_pale_green&wings=Lizard_wings_pale_green&wound_arm=none&wound_brain=none&wound_eye=none&belt=Loose_Belt_white&hair=none&bandana=Bandana_gray&hat=Cloth_hood_black&jacket=Trench_coat_dark_gray&shoes=Boots_black) you can find assets used in video
+[Here](https://sanderfrenken.github.io/Universal-LPC-Spritesheet-Character-Generator/#?body=Body_color_pale_green&head=Human_male_pale_green&tail=Lizard_tail_pale_green&wings=Lizard_wings_pale_green&wound_arm=none&wound_brain=none&wound_eye=none&belt=Loose_Belt_white&hair=none&bandana=Bandana_gray&hat=Cloth_hood_black&jacket=Trench_coat_dark_gray&shoes=Boots_black) you can find assets used in video.
+
+[Here](https://github.com/dominx99/rpgjs-tutorial/tree/main/examples/LPC) is code example used in this video.
 
 `rpg.toml`
 ```toml
@@ -89,3 +91,4 @@ const LPCSpritesheetPreset = () => {
 export default class LPCSpritesheet {
 }
 ```
+
