@@ -92,3 +92,11 @@ export default class LPCSpritesheet {
 }
 ```
 
+Then put images to the `lpc-sprites` directory and use them as graphics for player.
+
+`main/player.ts`
+```ts
+/* ... */
+    player.setGraphic(['pale-green-body', 'pale-green-head', 'pale-green-wings', 'pale-green-wings-fg', 'dark-grey-coat', 'boots-black', 'hood-black']);
+/* ... */
+```
