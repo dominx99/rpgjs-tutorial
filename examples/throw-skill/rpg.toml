@@ -1,0 +1,43 @@
+name = 'My Game'
+
+modules = [
+    './main',
+    '@rpgjs/mobile-gui',
+    '@rpgjs/default-gui',
+    '@rpgjs/gamepad'
+]
+
+spritesheetDirectories = [
+    'spritesheets/characters',
+    'spritesheets/skills',
+]
+
+[start]
+    map = 'simplemap'
+    graphic = 'hero'
+    hitbox = [16, 16]
+
+[inputs.skill]
+    name = "skill"
+    repeat = false
+    bind = "j"
+
+[inputs.up]
+    name = "up"
+    repeat = true
+    bind = "w"
+
+[inputs.down]
+    name = "down"
+    repeat = true
+    bind = "s"
+
+[inputs.right]
+    name = "right"
+    repeat = true
+    bind = "d"
+
+[inputs.left]
+    name = "left"
+    repeat = true
+    bind = "a"
