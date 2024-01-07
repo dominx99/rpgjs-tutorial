@@ -1,0 +1,12 @@
+name = 'My Game'
+
+modules = [
+    './main',
+    './modules/popping',
+    '@rpgjs/default-gui',
+]
+
+[start]
+    map = 'simplemap'
+    graphic = 'hero'
+    hitbox = [16, 16]
